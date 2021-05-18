@@ -1,0 +1,25 @@
+version: "2"
+
+services:
+  web:
+    build: .
+    restart: always
+    ports:
+      - "80"
+    depends_on: 
+      - db
+    volumes: 
+      - ./www:/var/www/html
+
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_DATABASE: babytrick
+      MYSQL_ROOT_PASSWORD: babytrick
+      MYSQL_USER: babytrick
+      MYSQL_PASSWORD: babytrick
+    command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]
+
+
+

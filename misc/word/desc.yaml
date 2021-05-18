@@ -1,0 +1,7 @@
+name: wird
+category: misc
+description: >
+  flag被我藏起来了，你找不到
+hardlevel: 2
+flag: flag{9d4be79c62a2ae70e43b007a9be69a49}
+is_docker: true

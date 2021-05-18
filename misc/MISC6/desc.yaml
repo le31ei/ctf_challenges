@@ -1,0 +1,6 @@
+name: MISC6
+category: misc
+description: 流量分析
+hardlevel: 1
+flag: flag{skysql_is_very_cool!233}
+is_docker: true

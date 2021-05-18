@@ -1,0 +1,6 @@
+name: Crypto6
+category: crypto
+description: Not only base??
+hardlevel: 1
+flag: flag{N0t_0NLy_b4sE32}
+is_docker: true

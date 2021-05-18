@@ -1,0 +1,10 @@
+错误sql语句：
+select * from `class` where id=7
+客户IP:127.0.0.1
+时间 :2010-04-10 10:22:20
+
+错误sql语句：
+update `510_newsclass` set `name`='鑫 ',`f_id`=,`sort`=0 where `id`=7
+客户IP:127.0.0.1
+时间 :2010-04-10 10:44:44
+

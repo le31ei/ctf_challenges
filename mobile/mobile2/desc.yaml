@@ -1,0 +1,11 @@
+name: mobile2
+category: mobile
+description: >
+  1.获取正确的flag
+
+  2.运行环境：Andrid 4.0以上
+
+  3.攻击手段限制：无限制，允许爆破，穷举等等方法
+hardlevel: 5
+flag: flag{47,73,81,142,155,183,185,198,234}
+is_docker: true

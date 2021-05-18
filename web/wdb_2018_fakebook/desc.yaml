@@ -1,0 +1,6 @@
+name: 网鼎杯2018fakebook
+category: web
+description: 网鼎杯2018fakebook
+hardlevel: 4
+flag: wdb_2018_fakebook_flag_is_here
+is_docker: true

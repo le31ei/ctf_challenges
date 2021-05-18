@@ -1,0 +1,6 @@
+name: php反序列化2
+category: web
+description: 你能控制你的值等于一个随机数么
+hardlevel: 1
+flag: nsctf{taiiiiiii1_li_hai_le}
+is_docker: true

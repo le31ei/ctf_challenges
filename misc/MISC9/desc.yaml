@@ -1,0 +1,6 @@
+name: MISC9
+category: misc
+description: music
+hardlevel: 2
+flag: flag{4dcfda814ec9fd4761c1139fee3f65eb}
+is_docker: true

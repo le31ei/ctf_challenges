@@ -1,0 +1,6 @@
+name: findpass
+category: misc
+description: 在某银行在近的一次项目中，关键数据疑似泄漏。经过某种手段已经把嫌疑锁定在嫌疑人A身上了，但是嫌疑人A的U盘中除了一张图片之外，没有发现任何相关的信息。你能帮助公司找到他泄漏数据的确凿证据吗？
+hardlevel: 1
+flag: flag{QohLfitIPtByVxux}
+is_docker: true

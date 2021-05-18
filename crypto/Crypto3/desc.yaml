@@ -1,0 +1,6 @@
+name: Crypto3
+category: crypto
+description: 栅栏密码
+hardlevel: 1
+flag: flag{3644257ea4673a9e093663207f24008f}
+is_docker: true

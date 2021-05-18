@@ -1,0 +1,49 @@
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td {
+    margin: 0;
+    padding: 0
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+html{
+  height: 100%;
+}
+
+.slideout-menu {
+  background-color: #353A4A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+  width: 256px;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  display: none;
+  height: 100%;
+}
+
+.slideout-panel {
+  background-color: #FFFFFF;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 0 10px rgba(0,0,0,1);
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+}
+
+.slideout-open,
+.slideout-open body,
+.slideout-open .slideout-panel {
+  overflow: hidden;
+}
+
+.slideout-open .slideout-menu {
+  display: block;
+}

@@ -1,0 +1,6 @@
+name: Crypto5
+category: crypto
+description: hafuhafu
+hardlevel: 1
+flag: flag{D0nT_uS3_Th3_kN0w_n}
+is_docker: true

@@ -1,0 +1,6 @@
+name: 反序列化
+category: web
+description: 简单的反序列化
+hardlevel: 2
+flag: flag{6b9260b1e02041a665d4e4a5117cfe16}
+is_docker: true

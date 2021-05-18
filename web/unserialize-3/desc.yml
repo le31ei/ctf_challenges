@@ -1,0 +1,6 @@
+name: 反序列化3
+category: web
+description: php反序列化
+hardlevel: 2
+flag: aegis{35d6d33467aae9a2e3dccb4b6b027878}
+is_docker: true

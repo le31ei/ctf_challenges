@@ -1,0 +1,6 @@
+name: MISC1
+category: misc
+description: 剧情大反转
+hardlevel: 2
+flag: flag{99f0fd18f89e6b73f05c139b0a9e4c98}
+is_docker: true

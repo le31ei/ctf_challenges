@@ -1,0 +1,11 @@
+version: "2"
+services:
+  web:
+    image: php:5.4-apache
+    volumes:
+      - ./www:/var/www/html/
+      - ./flag:/flag
+    ports:
+      - 80
+
+

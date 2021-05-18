@@ -1,0 +1,22 @@
+错误sql语句：
+INSERT INTO `510_single` (`id`, `title`, `content`, `remark`, `date`) VALUES ('', '企来文化', '<p><font face=\"宋体\">电脑问题：我的电脑是Windows XP系统，可是我按关机键后电脑的反应却是重启，导致我不能关闭主机电源。我以前曾遇到过，但后来我无意中进行什么操作，又自动变好了。这是什么原因呢，请问应该怎么解决？　　答：改变电源管理模式和设置CMOS内电源管理，或者在BIOS中关掉主板的网络唤醒功能试试吧。 <br />
+&nbsp;</font> [责任编辑]：<a href=\"http://www.xmf1.com/\">厦门电脑维修</a><br />
+&nbsp;</p>', '', '1271423454';
+客户IP:127.0.0.1
+时间 :2010-04-16 13:10:54
+
+错误sql语句：
+INSERT INTO `510_single` (`id`, `title`, `content`, `remark`, `date`) VALUES ('', 'dsds', '<p>sdsds</p>', '', '1271423576'
+客户IP:127.0.0.1
+时间 :2010-04-16 13:12:56
+
+错误sql语句：
+INSERT INTO `510_single` (`id`, `title`, `content`, `remark`, `date`)VALUES ('', 'qwq', '<p>wqwqwq</p>', '', '1271423599'
+客户IP:127.0.0.1
+时间 :2010-04-16 13:13:19
+
+错误sql语句：
+INSERT INTO `510_single` (`id`, `title`, `content`, `remark`, `date`)VALUES ('', 'dfdf', '<p>fdfdfdf</p>', '','';
+客户IP:127.0.0.1
+时间 :2010-04-16 13:15:21
+

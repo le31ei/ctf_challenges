@@ -1,0 +1,6 @@
+name: mobile1
+category: mobile
+description: 安卓逆向咯
+hardlevel: 3
+flag: flag{048b749d30}
+is_docker: true

@@ -1,0 +1,11 @@
+name: zheshishenme
+category: crypto
+description: >
+  某银行管理员，发现公司电脑中存在一串未知数据，你能解开数据的内容么
+  ```
+  =E4=B8=89=E5=B8=9D=E4=BA=94=E5=B8=81=E4=B8=83=E6=98=93=E6=81=A9=E5=85=AD
+  =E5=93=A6=E8=BE=9F=E6=9B=BF=E4=BC=98=E5=85=AB=E5=BE=AE=E5=A4=96=E4=B9=9D
+  ```
+hardlevel: 2
+flag: flag{1e257b39a25c6a7c4d66e197}
+is_docker: false

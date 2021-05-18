@@ -1,0 +1,8 @@
+错误sql语句：
+INSERT INTO `510_single` (`id`,`type_id` ,`title` ,`content` ,`remark`,`sort` ,`date` )VALUES ('', '1' , '企业文化', '<p><span style=\"font-weight: bold; color: #ff6600\">企业目标：</span>成为信息家电和数字影音产品行业的国内一流3C企业</p>
+<p><span style=\"font-weight: bold; color: #ff6600\">企业宗旨：</span>诚信赢得客户，专业服务大众，品牌创造价值</p>
+<p><span style=\"font-weight: bold; color: #ff6600\">企业精神：</span>绝对真本色</p>
+<p><span style=\"font-weight: bold; color: #ff6600\">企业使命：</span>数字生活，影.响世界</p>', '企业相关的单模块',, '2' '1271599679');
+客户IP:127.0.0.1
+时间 :2010-04-18 14:07:59
+

@@ -1,0 +1,6 @@
+name: backfile
+category: misc
+description: 某银行人员的电脑中了病毒，某个重要文件被篡改，你能还原文件吗？
+hardlevel: 1
+flag: flag{T8AkI67HCF1WObLF}
+is_docker: true

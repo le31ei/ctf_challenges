@@ -1,0 +1,6 @@
+name: reverse6
+category: reverse
+description: Simple xor
+hardlevel: 2
+flag: flag{Huan-y1n5-cAn5-5a1!}
+is_docker: true

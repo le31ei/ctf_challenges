@@ -1,0 +1,6 @@
+name: 网络管理系统
+category: web
+description: 为写出好漏洞而生
+hardlevel: 4
+flag: flag{d15443798b35face458a88dc9561eaa7}
+is_docker: true

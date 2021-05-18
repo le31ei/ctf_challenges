@@ -1,0 +1,6 @@
+name: CISCN 2019 华东北 Web2
+category: web
+description: 无
+hardlevel: 5
+flag: flag{glzjin_wants_a_girl_firend}
+is_docker: true

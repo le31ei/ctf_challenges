@@ -1,0 +1,6 @@
+name: php特性
+category: web
+description: php的有趣的特性
+hardlevel: 1
+flag: NSCTF{ab4ea15bd59038a6c7b823ebeee4b8ba}
+is_docker: true

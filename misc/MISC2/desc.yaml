@@ -1,0 +1,6 @@
+name: MISC2
+category: misc
+description: 流量分析
+hardlevel: 2
+flag: flag{3819169573b7a37786d2ea39c6daef76}
+is_docker: true

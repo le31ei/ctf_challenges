@@ -1,0 +1,6 @@
+name: 头等舱
+category: web
+description: 头等舱
+hardlevel: 1
+flag: flag{099fb995346f31c749f6e40db0f395e3}
+is_docker: true

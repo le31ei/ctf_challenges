@@ -1,0 +1,6 @@
+name: MISC7
+category: misc
+description: 音频隐写,flag格式：CTFxxxxxx，请提交ctf{xxxxxx}
+hardlevel: 1
+flag: ctf{WPEI08732?23DZ}
+is_docker: true

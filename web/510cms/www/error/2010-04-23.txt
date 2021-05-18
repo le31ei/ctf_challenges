@@ -1,0 +1,25 @@
+错误sql语句：
+SELECT * FROM `510_single` type_id`=2 limit 0,1
+客户IP:127.0.0.1
+时间 :2010-04-23 12:47:07
+
+错误sql语句：
+SELECT * FROM `510_single` where type_id`=2 limit 0,1
+客户IP:127.0.0.1
+时间 :2010-04-23 12:47:13
+
+错误sql语句：
+SELECT * FROM `510_single` where `id`=746546 4
+客户IP:127.0.0.1
+时间 :2010-04-23 12:48:06
+
+错误sql语句：
+SELECT * FROM `510_newsclass` where `f_id`=115614616 2
+客户IP:127.0.0.1
+时间 :2010-04-23 14:12:32
+
+错误sql语句：
+SELECT * FROM `510_single` where `id`=6455641654 5
+客户IP:127.0.0.1
+时间 :2010-04-23 14:26:45
+

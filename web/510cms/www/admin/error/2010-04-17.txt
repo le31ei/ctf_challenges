@@ -1,0 +1,15 @@
+错误sql语句：
+update `510_proclass` set `name`='fdf fdf d',`f_id`=0,`sort`=0,`cidpic`=,`remark`= where `id`=16
+客户IP:127.0.0.1
+时间 :2010-04-17 15:45:22
+
+错误sql语句：
+update `510_proclass` set `name`='多媒体系列',`f_id`=0,`sort`=0,`cidpic`=img/12.jpg,`remark`=新生活4333 where `id`=4
+客户IP:127.0.0.1
+时间 :2010-04-17 15:48:09
+
+错误sql语句：
+update `510_proclass` set `name`='多媒体系列',`f_id`=0,`sort`=0,`cidpic`=img/12.jpg,`remark`=新生活4 where `id`=4
+客户IP:127.0.0.1
+时间 :2010-04-17 15:51:35
+

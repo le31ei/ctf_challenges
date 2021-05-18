@@ -1,0 +1,6 @@
+name: Crypto7
+category: crypto
+description: Trace the hacker!!!!
+hardlevel: 2
+flag: flag{U_f1nd_Me!}
+is_docker: true

@@ -1,0 +1,6 @@
+name: XFF
+category: web
+description: Xff访问限制
+hardlevel: 1
+flag: flag{15cc8eee88302965c61497c147e6ca4c}
+is_docker: true

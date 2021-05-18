@@ -1,0 +1,180 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>{$sm_config.webname}</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=gbk">
+<meta name="description" content="{$sm_config.webdes}" />
+<meta name="keywords" content="{$sm_config.webkw}" />
+<LINK href="{$xm_dir}img/style.css" type=text/css rel=stylesheet>
+<SCRIPT src="{$xm_dir}img/sohuflash_1.js" type=text/javascript></SCRIPT>
+{literal}
+<SCRIPT type=text/javascript>
+function menuFix() {
+var sfEls = document.getElementById("nav").getElementsByTagName("li");
+for (var i=0; i <sfEls.length; i++) {
+sfEls[i].onmouseover=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseDown=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onMouseUp=function() {
+this.className+=(this.className.length>0? " ": "") + "sfhover";
+}
+sfEls[i].onmouseout=function() {
+this.className=this.className.replace(new RegExp("( ? |^)sfhover\\b"),
+"");
+}
+}
+}
+window.onload=menuFix;
+</SCRIPT>
+
+<SCRIPT type=text/javascript>
+    function test()
+    {
+    var keyword = document.getElementById("search");
+        if(keyword.value=='请输入关键字' || keyword.value==''){
+            alert('请输入关键字');
+            keyword.focus();
+            return false;
+        }
+		else
+		{
+        var keyword=document.getElementById("search").value;
+        var url="../Search/search.aspx?type=0&search="+escape(keyword)
+        window.open(url)
+		}
+
+    }
+
+     function UpSerrch()
+        {
+            var sk=event.keyCode;
+            if(sk==13)
+            {
+                  test();
+            }
+        }
+
+</SCRIPT>
+{/literal}
+<META content="MSHTML 6.00.2900.3252" name=GENERATOR></HEAD>
+<BODY>
+<DIV class=wrap>
+<DIV class=" header1">
+<DIV class=" header">
+<DIV class="logo left"><A href="{$sm_config.weburl}"><IMG height=24
+src="{$xm_dir}img/logo.jpg" width=168></A></DIV>
+<DIV class="search right">
+<DIV class="search_l left"><INPUT class=search_k name=search><INPUT class=search_s onclick=test(); type=submit name=input value=""> </DIV>
+<DIV class="language left"><A href="{$sm_config.weburl}/en/">English</A> 　<A
+onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('{$sm_config.weburl}');"
+href="{$sm_config.weburl}#">设定首页</A> </DIV></DIV></DIV></DIV>
+<DIV class=head id=nav>
+<DIV class=nav>
+<UL>
+  <LI><A href="index.php">首　页 </A></LI>
+  <LI><A href="about.php">企业介绍</A>
+  <UL>
+{section name=c loop=$sm_comp}
+    <LI><A href="about.php?listid={$sm_comp[c].id}">{$sm_comp[c].title}</A>  </LI>
+{/section}	
+	</UL>
+  </LI>
+  <LI><A href="news.php">新闻中心</A>
+  <UL>
+    {section name=nc loop=$sm_newclass}
+    <LI><A href="news.php?cid={$sm_newclass[nc].id}">{$sm_newclass[nc].name}</A>  </LI>
+	{/section}
+	
+	</UL>
+  </LI>
+  <LI><A href="product.php">产品中心</A>
+  <UL>
+ 
+    {section name=p loop=$sm_procut}
+    <LI><A href="product.php?cid={$sm_procut[p].id}">{$sm_procut[p].name}</A>  </LI>
+	{/section}
+	
+	</UL>
+  </LI>
+  <LI><A href="service.php">服务与支持</A>
+  <UL>
+{section name=c loop=$sm_ser}
+    <LI><A href="service.php?listid={$sm_ser[c].id}">{$sm_ser[c].title}</A>  </LI>
+{/section}
+ </UL>
+  </LI>
+  
+  <LI><A href="message.php">在线留言</A>
+  <UL>
+  </UL>
+  </LI>
+   <LI><A href="contact.php">联系我们</A> </LI>
+  <LI><A href="index.php">公司社区</A> </LI>
+  <LI 
+  style="WIDTH: 110px; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none"><A 
+  href="index.php" target=_blank>网上商城</A> </LI></UL></DIV>
+<DIV class=banner>
+<DIV id=flashcontent01></DIV>
+<SCRIPT type=text/javascript>
+					var speed = 4000;
+					var pics='{$xm_dir}img/01.jpg|{$xm_dir}img/02.jpg|{$xm_dir}img/03.jpg|{$xm_dir}img/04.jpg';
+					var mylinks='||||';
+					var texts='||||';
+					var sohuFlash2 = new sohuFlash("{$xm_dir}focus0414a.swf","flashcontent01","966","353","8","#ffffff");
+
+
+
+sohuFlash2.addParam("quality", "medium");
+
+sohuFlash2.addParam("wmode", "opaque");						sohuFlash2.addVariable("speed",speed);
+						sohuFlash2.addVariable("p",pics);
+						sohuFlash2.addVariable("l",mylinks);
+						sohuFlash2.addVariable("icon",texts);
+						sohuFlash2.write("flashcontent01");
+					</SCRIPT>
+</DIV></DIV>
+<DIV class="line clear"></DIV>
+<DIV class="content clear">
+<DIV class="content_r right">
+<DIV class=" content_rt"><IMG height=37 src="{$xm_dir}img/content_32.jpg"
+width=283 useMap=#Map border=0> <MAP id=Map name=Map><AREA shape=RECT
+  target=_self coords=224,10,279,26
+href="http://www.giec.cn/News/index.aspx"></MAP></DIV>
+<DIV class=content_rz>
+<UL>
+  {section name=n loop=$sm_news}
+  <LI><A
+  href="news.php?newsid={$sm_news[n].id}">{$sm_news[n].title|truncate:40:"..."}</A>
+  </LI>
+  {/section}
+  
+  </UL></DIV>
+<DIV class=content_rb><IMG height=9 src="{$xm_dir}img/news_57.jpg"
+width=283></DIV>
+<DIV class=shop><A href="http://www.giec.cn/#"><IMG height=68
+src="{$xm_dir}img/content_40.jpg" width=260></A></DIV></DIV>
+<DIV class="content_lt left"><IMG height=31
+src="{$xm_dir}img/content_30.jpg" width=669></DIV>
+<DIV class=content_lz
+style="PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 12px">
+
+{section name=l loop=$sm_procid}
+<DL>
+  <DT><A href="product.php?cidid={$sm_procid[l].id}"><IMG
+  src="{$sm_procid[l].cidpic}"></A> </DT>
+  <DD><SPAN>{$sm_procid[l].name}</SPAN><BR>
+  </DD>{$sm_procid[l].remark}</DL>
+{/section}
+</DIV>
+<DIV class="content_lb left"><IMG height=9
+src="{$xm_dir}img/content_42.jpg" width=669></DIV>
+<DIV class="copyright clear ">
+<DIV class=" copyright_l left"><IMG height=80
+src="{$xm_dir}img/content_45.jpg" width=20></DIV>
+<DIV class=copyright_z>
+{$sm_config.copyright}
+</DIV>
+<DIV class=" copyright_r right"><IMG height=80
+src="{$xm_dir}img/content_50.jpg"
+width=15></DIV></DIV></DIV></DIV></BODY></HTML>

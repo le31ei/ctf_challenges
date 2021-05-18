@@ -1,0 +1,6 @@
+name: sqliBlind
+category: web
+description: Mysql延时注入，user-agent头
+hardlevel: 2
+flag: flag{82c3c4c7c43a9c163e515a5796604c35}
+is_docker: true

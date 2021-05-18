@@ -1,0 +1,6 @@
+name: php弱类型2
+category: web
+description: php弱类型2
+hardlevel: 1
+flag: aegis{php_1s_th3_w0r1d_be5t_l4n9uage}
+is_docker: true

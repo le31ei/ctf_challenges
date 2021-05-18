@@ -1,0 +1,15 @@
+错误sql语句：
+UPDATE `510_admin` SET `mid` = '1',`name` = 'admin1',`passwd` = 490cc6fe5737c85ec8146b6a3997b5d3,`remark` = '超级管理员' WHERE  `id` ='1';
+客户IP:127.0.0.1
+时间 :2010-04-15 16:14:09
+
+错误sql语句：
+UPDATE `510_admin` SET `mid` = '1',`name` = 'admin1',`passwd` = 8dbdf8221fcf4bd6ac5a48317baa948c,`remark` = '超级管理员' WHERE  `id` ='1';
+客户IP:127.0.0.1
+时间 :2010-04-15 16:16:12
+
+错误sql语句：
+DELETE FROM 510_adminadd WHERE `id` = 2
+客户IP:127.0.0.1
+时间 :2010-04-15 16:21:45
+

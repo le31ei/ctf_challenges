@@ -1,0 +1,11 @@
+version: "2"
+services:
+  web:
+    build: .
+    volumes:
+      - ./www:/var/www/html/
+    ports:
+      - 80
+    command: ['chmod', '777', '/var/www/html/upload']
+
+

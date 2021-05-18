@@ -1,0 +1,6 @@
+name: php文件上传与包含再利用
+category: web
+description: 文件上传搭配文件包含
+hardlevel: 2
+flag: nsctf{8f185d911c7cd5c6e98b1db8cd4bb1e7}
+is_docker: true

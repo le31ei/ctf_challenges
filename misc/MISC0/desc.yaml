@@ -1,0 +1,6 @@
+name: MISC0
+category: misc
+description: 签到题
+hardlevel: 1
+flag: flag{666b582e4bdbe861f6cbc182e8154c4b}
+is_docker: true

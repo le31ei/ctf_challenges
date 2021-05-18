@@ -1,0 +1,6 @@
+name: 反序列化4
+category: web
+description: php反序列化
+hardlevel: 1
+flag: flag{got_flag2}
+is_docker: true

@@ -1,0 +1,20 @@
+错误sql语句：
+update `510_proclass` set `name`='高清媒体播放器',`f_id`=,`sort`=0 where `id`=8
+客户IP:127.0.0.1
+时间 :2010-04-14 11:13:56
+
+错误sql语句：
+update `510_proclass` set `name`='RM播放器 ',`f_id`=,`sort`=0 where `id`=9
+客户IP:127.0.0.1
+时间 :2010-04-14 11:14:16
+
+错误sql语句：
+update `510_proclass` set `name`='RM播放器 ',`f_id`=,`sort`=0 where `id`=9
+客户IP:127.0.0.1
+时间 :2010-04-14 11:15:07
+
+错误sql语句：
+SELECT * FROM 510_procut where `nid`=3
+客户IP:127.0.0.1
+时间 :2010-04-14 15:25:19
+

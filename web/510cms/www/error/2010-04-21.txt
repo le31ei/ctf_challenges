@@ -1,0 +1,15 @@
+错误sql语句：
+SELECT * FROM `510_newsclass` where `f_id`=
+客户IP:127.0.0.1
+时间 :2010-04-21 12:28:36
+
+错误sql语句：
+SELECT * FROM `510_newsclass` where `f_id`=
+客户IP:127.0.0.1
+时间 :2010-04-21 12:34:18
+
+错误sql语句：
+SELECT * FROM `510_newsclass` where `f_id`=
+客户IP:127.0.0.1
+时间 :2010-04-21 12:35:52
+

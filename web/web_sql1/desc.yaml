@@ -1,0 +1,6 @@
+name: 最最最简单的sql注入
+category: web
+description: 无
+hardlevel: 1
+flag: NSCTF{f6c631f294a64dbb1e963f427fdc725d}
+is_docker: true

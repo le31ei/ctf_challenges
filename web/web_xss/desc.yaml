@@ -1,0 +1,6 @@
+name: xss基础
+category: web
+description: 你能打到管理员的cookie，就能获得flag吗？
+hardlevel: 1
+flag: NSCTF{1436d30d970974a13d9e2c07808c4931}
+is_docker: true

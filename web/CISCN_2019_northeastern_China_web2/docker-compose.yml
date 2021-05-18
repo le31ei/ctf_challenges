@@ -1,0 +1,28 @@
+# ciscn_2019_northeastern_china_web2
+
+version: "2"
+
+services:
+
+  web:
+    build: ./web
+    image: ctftraining/ciscn_2019_northeastern_china_web2
+    restart: always
+    ports:
+      - "80"
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_firend}
+
+  xssbot:
+    build: ./xssbot
+    image: ctftraining/ciscn_2019_northeastern_china_web2_xssbot
+    restart: always
+    depends_on:
+      - web
+    environment:
+      - BACKDOOR_URL=http://web/backdoor2bot_dont_delete.php
+      - ADMIN_URL=http://web/submit_1bce5f764c10b1c3b7e2bf835cf31247/index.php
+      - HOST=web
+      - REFERER_URL=http://web/admin.php
+
+

@@ -1,0 +1,6 @@
+name: upload&include
+category: web
+description: 文件包含与上传合并利用
+hardlevel: 2
+flag: flag{eb5adf98370751fe5c01e371bcefadd1}
+is_docker: true

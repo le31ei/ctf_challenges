@@ -1,0 +1,6 @@
+name: MISC8
+category: misc
+description: 提示：txt是GBK编码。falg格式：ctf{xxxx}
+hardlevel: 2
+flag: ctf{vI0l3t_Ev3rg@RdeN}
+is_docker: true

@@ -1,0 +1,6 @@
+name: 文件包含
+category: web
+description: 文件包含
+hardlevel: 2
+flag: flag{d41d8cd98f00b204e9800998ecf8427e}
+is_docker: true

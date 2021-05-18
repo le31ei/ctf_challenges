@@ -1,0 +1,253 @@
+@charset "utf-8";
+a{text-decoration: none;} /* 链接无下划线,有为underline */ 
+a:link {color: #333333;text-decoration: none;} /* 未访问的链接 */
+a:visited {color: #333333;text-decoration: none;} /* 已访问的链接 */
+a:hover{color: #FF3300;text-decoration: underline;} /* 鼠标在链接上 */ 
+a:active {color: #FF3300;text-decoration: none;} /* 点击激活链接 */
+.nav_l2{text-decoration:none;font-size:14px;color:#000;height:0;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+.nav_l2 a:link{text-decoration:none;font-size:14px;color:#000;height:0;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+.nav_l2 a:visited{text-decoration:none;font-size:14px;color:#fff;height:0;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+.nav_l2 a:active,.nav_l2 a:hover{text-decoration:underline;font-size:14px;color:#fff;height:0;filter:dropshadow(offX=1,offY=1,color=#FFFFFF);}
+body{
+    FONT-FAMILY: 微软雅黑, Arial, Helvetica, sans-serif;
+    FONT-SIZE: 12px;
+    text-decoration: none;
+    line-height: 150%;
+    background:#EBEBEB;
+    PADDING-RIGHT: 0px; PADDING-LEFT: 0px; SCROLLBAR-FACE-COLOR: #59D6FF; PADDING-BOTTOM: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #ffffff; SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #007BC6; SCROLLBAR-DARKSHADOW-COLOR: #007BC6; SCROLLBAR-ARROW-COLOR: #007BC6; PADDING-TOP: 0px; SCROLLBAR-TRACK-COLOR: #009ED2;
+    padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+ /* 表单类 */
+Button,input,textarea{
+    FONT-FAMILY: "微软雅黑,新宋体";
+    FONT-SIZE: 12px;
+	COLOR:#333333;
+    text-decoration: none;
+    background:#F0F0F0;
+	border-bottom:solid;
+	border-bottom-color:#A7A7A7;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#A7A7A7;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#A7A7A7;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#A7A7A7;
+	border-top-width:1;
+}
+ /* 下拉菜单 */
+select{
+    FONT-FAMILY: "微软雅黑,Verdana, 新宋体";
+    FONT-SIZE: 12px;
+	COLOR:#333333;
+    text-decoration: none;
+    line-height: 150%;
+    background:#EAEAEA;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width:0px;
+	border-left-width: 0px;
+	/*border-top-style: dotted;
+	border-right-style: dotted;
+	border-bottom-style: dotted;
+	border-left-style: dotted;
+	border-top-color: #038291;
+	border-right-color: #038291;
+	border-bottom-color: #038291;
+	border-left-color: #038291;*/
+	padding:0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.xk {
+	border: 1px solid #696969;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#D8D8D8;
+}
+ /* 定义表CSS */
+.table{
+	border: 1px solid #939393;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background:#C8C8C8;
+}
+ /* 菜单部分定义表CSS  */
+.leftframetable{
+	border: 1px solid #696969;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	background:#E1E1E1;
+}
+.bt {
+	font-size: 12px;
+	font-weight: bold;
+	color: #EBEBEB;
+	text-decoration: none;
+}
+td {
+	color:#333333;
+	font-size:12px;
+    line-height: 18px;
+}
+ /* 定义大字体标题CSS  */
+.bg_tr {
+    line-height: 20px;
+	font-family: "微软雅黑,Verdana, 新宋体";
+	color:#333333;
+	font-size:12px;
+	font-weight:bolder;
+	background:#DBDAD9;
+	/*background-image : url("images/title_bg.gif");*/
+}/*hback  = bg_tr*/
+.titledaohang {
+	FONT-SIZE: 12px; 
+	FILTER: Glow(Color=#CACACA, Strength=1) dropshadow(Color=#A2A2A2, OffX=1, OffY=1,); 
+	COLOR: #2F2F2F; 
+	font-weight:bolder;
+	FONT-FAMILY: '微软雅黑,宋体'
+}
+A.admintx:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #3D3D3D; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #3D3D3D; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none;font-weight:bolder;
+}
+A.admintx:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none;font-weight:bolder;
+}
+.back {
+	background:#F2F2F2;
+}
+.Leftback {
+	background:#DBDBDB;
+}
+.td_bg {
+	background:#EAEAEA;
+}
+/*td_bg = xingmu*/
+
+.hback_1 {
+	background:#D9D9D9;
+}
+ /* 框架CSS  */
+.bordercolor {
+cursor:col-resize;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:solid;
+border-right-width:5px;
+border-right-color:#C6C5C5;
+}
+ /* 大字体CSS  */
+.pagetile {
+	font-weight:bolder;
+	font-size:20px;
+}
+.ischeck
+{
+	color:#FF9900;
+}
+/*自定义CSS样式一，黄色*/
+.CusCss1
+{
+	color:#FFFF00;
+}
+/*自定义CSS样式二,黄蓝*/
+.CusCss2
+{
+	color:#00CCCC;
+}
+/*自定义CSS样式二,黄白*/
+.CusCss3
+{
+	color:#FFCCCC;
+}
+.alps {
+FONT-SIZE: 9pt; 
+FILTER: Glow(Color=#0F42A6, Strength=2) dropshadow(Color=#0F42A6, OffX=2, OffY=1,); 
+COLOR: #8AADE9; 
+FONT-FAMILY: '微软雅黑,宋体'
+}
+A.top:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.top:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.top:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.otherset:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.otherset:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #000000; TEXT-DECORATION: none
+}
+A.otherset:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.otherset:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+.tx
+{
+Color:red
+}
+A.sd:link {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333; TEXT-DECORATION: none
+}
+A.sd:visited {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #333; TEXT-DECORATION: none
+}
+A.sd:hover {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+A.sd:active {
+	FONT-WEIGHT: normal; FONT-SIZE: 12px; COLOR: #FF0000; TEXT-DECORATION: none
+}
+.RightInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#6FBE44;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#6FBE44;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#6FBE44;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#6FBE44;
+	border-top-width:1;
+}
+.WarnInput{
+	font-size:12px
+	border-bottom:solid;
+	border-bottom-color:#FF0000;
+	border-bottom-width:1;
+	border-left:solid;
+	border-left-color:#FF0000;
+	border-left-width:1;
+	border-right:solid;
+	border-right-color:#FF0000;
+	border-right-width:1;
+	border-top:solid;
+	border-top-color:#FF0000;
+	border-top-width:1;
+}

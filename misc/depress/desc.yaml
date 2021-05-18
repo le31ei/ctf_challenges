@@ -1,0 +1,6 @@
+name: depress
+category: misc
+description: 在某银行在近的一次项目中，关键数据疑似泄漏，只找到嫌疑人曾在项目中的U盘，只发现一个压缩包，貌似被加密了，你能找到关键数据吗？
+hardlevel: 1
+flag: flag{qPcmzUoEvOu1riEc}
+is_docker: true

@@ -1,0 +1,6 @@
+name: php文件上传
+category: web
+description: 只准上传gif文件的
+hardlevel: 1
+flag: flag{ffffffffllllaaggg_!!!}
+is_docker: true

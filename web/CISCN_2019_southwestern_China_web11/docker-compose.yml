@@ -1,0 +1,15 @@
+# BUUSEC 2019 华东南赛区 Web11
+
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/ciscn_2019_southeastern_china_web11
+    restart: always
+    ports:
+      - "80"
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_firend}
+

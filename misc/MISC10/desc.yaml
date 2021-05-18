@@ -1,0 +1,6 @@
+name: MISC10
+category: misc
+description: hackpdf
+hardlevel: 1
+flag: flag{this_is_pdf_flag}
+is_docker: true

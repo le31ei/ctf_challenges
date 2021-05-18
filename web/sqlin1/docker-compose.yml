@@ -1,0 +1,30 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    restart: always
+    ports:
+      - "80"
+    depends_on: 
+      - db
+    volumes: 
+      - ./www:/var/www/html
+      - ./etc/php.ini:/usr/local/etc/php/conf.d/php.ini
+
+
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_DATABASE: sqli
+      MYSQL_ROOT_PASSWORD: sqli
+      MYSQL_USER: sqli
+      MYSQL_PASSWORD: sqli
+    volumes: 
+      - ./etc/db.sql:/docker-entrypoint-initdb.d/db.sql
+    command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]
+
+
+

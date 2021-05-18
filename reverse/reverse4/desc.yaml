@@ -1,0 +1,6 @@
+name: reverse4
+category: reverse
+description: 本题要求输入key字符串，正确弹出MessageBox，错误的key则不会弹出MessageBox。
+hardlevel: 4
+flag: u$YBPf2pa]Dt4#QM^H4ic'j0`w2y{d-Zzo2%/n_s@+2<UW)e4AR;F.4=-qEkvC2
+is_docker: true

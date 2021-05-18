@@ -1,0 +1,27 @@
+version: '2'
+services:
+ web:
+   build: .
+   # image: le31ei/web_xss
+   volumes:
+    - ./source:/var/www/html
+   ports:
+    - 80
+   environment: 
+    OPENSSL_CONF: $WORKSPACE/openssl.cnf
+   restart: always
+   depends_on: 
+    - mysql
+
+
+ mysql:
+  image: mariadb:10.4
+  restart: always
+  environment:
+    MYSQL_DATABASE: xss
+    MYSQL_ROOT_PASSWORD: xss
+    MYSQL_USER: xss
+    MYSQL_PASSWORD: xss
+  command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]
+
+    

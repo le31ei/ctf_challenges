@@ -1,0 +1,6 @@
+name: 百度搜索
+category: web
+description: 我写了一个网站调用了百度搜索，感觉很高大上哈哈哈
+hardlevel: 1
+flag: NSCTF{4787370fb09bd230f863731d2ffbff6a}
+is_docker: true

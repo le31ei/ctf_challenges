@@ -1,0 +1,24 @@
+# 网鼎杯 2018 fakebook
+version: "2"
+
+services:
+
+  web:
+    build: .
+    restart: always
+    ports:
+      - "80"
+    volumes: 
+      - ./files:/var/www/html
+      - ./etc/php.ini:/usr/local/etc/php/conf.d/php.ini
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_DATABASE: fakebook
+      MYSQL_ROOT_PASSWORD: fakebook
+      MYSQL_USER: fakebook
+      MYSQL_PASSWORD: fakebook
+    volumes: 
+      - ./etc/db.sql:/docker-entrypoint-initdb.d/db.sql
+    command: [mysqld, --character-set-server=utf8mb4, --collation-server=utf8mb4_unicode_ci, --wait_timeout=28800, --log-warnings=0]

@@ -1,0 +1,6 @@
+name: 条件竞争2
+category: web
+description: 上传条件竞争
+hardlevel: 1
+flag: flag{uplaod_OK}
+is_docker: true

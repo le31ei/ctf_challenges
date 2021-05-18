@@ -1,0 +1,15 @@
+错误sql语句：
+SELECT * FROM `biweb_archives` LIMIT 0 , 30
+客户IP:127.0.0.1
+时间 :2010-04-10 06:35:34
+
+错误sql语句：
+SELECT * FROM ` 510_config` LIMIT 0 , 30
+客户IP:127.0.0.1
+时间 :2010-04-10 06:37:10
+
+错误sql语句：
+SELECT * FROM ` 510_config`
+客户IP:127.0.0.1
+时间 :2010-04-10 06:37:18
+

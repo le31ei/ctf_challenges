@@ -1,0 +1,6 @@
+name: reverse1
+category: reverse
+description: 无
+hardlevel: 2
+flag: flag{ctfcoded20190616}
+is_docker: true

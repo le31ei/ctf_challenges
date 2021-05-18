@@ -1,0 +1,6 @@
+name: CISCN2019 华东南赛区 Web11
+category: web
+description: 无
+hardlevel: 4
+flag: flag{glzjin_wants_a_girl_firend}
+is_docker: true

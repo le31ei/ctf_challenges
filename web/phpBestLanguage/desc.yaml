@@ -1,0 +1,6 @@
+name: PHP是世界上最好的语言
+category: web
+description: 变量覆盖
+hardlevel: 1
+flag: flag{5592f1a9fa885a77ba55497e501a101a}
+is_docker: true

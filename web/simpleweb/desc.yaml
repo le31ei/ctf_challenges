@@ -1,0 +1,6 @@
+name: simpleweb
+category: web
+description: 简单web
+hardlevel: 2
+flag: flag{brute_forc322_th3_r4nd0m_s0_go0d}
+is_docker: true

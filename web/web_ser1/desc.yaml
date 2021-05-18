@@ -1,0 +1,6 @@
+name: php反序列化基础
+category: web
+description: 反序列化一个数组吧
+hardlevel: 1
+flag: flag{you_are_get_me}
+is_docker: true

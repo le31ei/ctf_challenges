@@ -1,0 +1,30 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    restart: always
+    ports:
+      - "80"
+    depends_on: 
+      - db
+    volumes: 
+      - ./www:/var/www/html
+      - ./etc/php.ini:/usr/local/etc/php/conf.d/php.ini
+
+
+  db:
+    image: mariadb:10.4
+    restart: always
+    environment:
+      MYSQL_DATABASE: 510cms
+      MYSQL_ROOT_PASSWORD: 510cms
+      MYSQL_USER: 510cms
+      MYSQL_PASSWORD: 510cms
+    volumes: 
+      - ./etc/510cms.sql:/docker-entrypoint-initdb.d/510cms.sql
+    command: [mysqld, --character-set-server=gb2312, --character-set-client=gb2312, --wait_timeout=28800, --log-warnings=0]
+
+
+

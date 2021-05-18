@@ -1,0 +1,6 @@
+name: Crypto1
+category: crypto
+description: 多次解码
+hardlevel: 1
+flag: flag{8ea44e39c914c5ddfbb9808c10033421}
+is_docker: true

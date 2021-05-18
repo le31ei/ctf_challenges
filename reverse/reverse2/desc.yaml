@@ -1,0 +1,6 @@
+name: reverse2
+category: reverse
+description: crack me
+hardlevel: 3
+flag: flag{59b8ed8f-af22-11e7-bb4a-3cf862d1ee75}
+is_docker: true

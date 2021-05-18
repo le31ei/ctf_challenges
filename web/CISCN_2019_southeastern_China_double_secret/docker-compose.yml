@@ -1,0 +1,13 @@
+version: "2"
+
+services:
+
+  web:
+    build: .
+    image: ctftraining/ciscn_2019_southeastern_china_double_secret
+    restart: always
+    ports:
+      - "5000"
+    environment:
+      - FLAG=flag{glzjin_wants_a_girl_firend}
+

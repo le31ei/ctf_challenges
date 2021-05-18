@@ -1,0 +1,6 @@
+name: reverse3
+category: reverse
+description: 逆向逆向,请在最终答案上加上`flag{}`,最终提交格式为`flag{你获得的值}`
+hardlevel: 2
+flag: flag{ActI0n5_sp3ak_Louder_than_w0rds}
+is_docker: true

@@ -1,0 +1,6 @@
+name: findpass2
+category: misc
+description: 在银行近的一次项目中，某个服务器的密钥被泄露，并被加密，密码是100-1000以内的质素总和。经过某种手段已经把嫌疑锁定，你能帮公司拿到关键性的证据吗
+hardlevel: 1
+flag: flag{asdf%^&*ghjkl}
+is_docker: true

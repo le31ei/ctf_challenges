@@ -1,0 +1,14 @@
+version: "2"
+
+services:
+
+  web:
+    image: php:5.6-apache
+    restart: always
+    ports:
+      - "80"
+    volumes: 
+      - ./www:/var/www/html
+
+
+

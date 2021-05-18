@@ -1,0 +1,6 @@
+name: 代码审计
+category: web
+description: 简单的代码审计
+hardlevel: 1
+flag: flag{1bc29b36f623ba82aaf6724fd3b16718}
+is_docker: true

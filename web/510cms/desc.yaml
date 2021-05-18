@@ -1,0 +1,6 @@
+name: 510cms
+category: web
+description: cms综合渗透
+hardlevel: 4
+flag: flag{first_cms_pentest}
+is_docker: true

@@ -1,0 +1,42 @@
+<!--
+table{
+font-size:12px;
+}
+BODY {
+	FONT-SIZE: 12px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+A {
+	TEXT-DECORATION: none;
+	COLOR: #1E5494; font-weight:bold;
+}
+A:link {
+	COLOR: #1E5494; font-weight:bold;
+}
+A:visited {
+	COLOR: #1E5494
+}
+A:hover {
+	COLOR: #1E5494
+}
+A:active {
+	COLOR: #1E5494
+}
+.topbar {background:url(/Images/top_tt_bg.gif) no-repeat;
+	COLOR: #1E5494
+}
+.topbar A:link {
+	COLOR: #1E5494
+}
+.topbar A:visited {
+	COLOR: #1E5494
+}
+.topbar A:hover {
+	
+	 COLOR: #8B0000; TEXT-DECORATION: none
+}
+.STYLE2 {color: #111111; }
+.STYLE3 {color: #993399;}
+.STYLE4 {color: #FFFFFF}
+-->

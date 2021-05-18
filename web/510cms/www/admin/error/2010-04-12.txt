@@ -1,0 +1,205 @@
+错误sql语句：
+DELETE FROM 510_newbase WHERE WHERE  `id` = 8
+客户IP:127.0.0.1
+时间 :2010-04-12 12:40:38
+
+错误sql语句：
+DELETE FROM 510_newscontent  WHERE WHERE  `nid` = 8
+客户IP:127.0.0.1
+时间 :2010-04-12 12:40:38
+
+错误sql语句：
+DELETE FROM 510_newbase WHERE `id` = data
+客户IP:127.0.0.1
+时间 :2010-04-12 12:45:39
+
+错误sql语句：
+DELETE FROM 510_newscontent  WHERE `nid` = data
+客户IP:127.0.0.1
+时间 :2010-04-12 12:45:39
+
+错误sql语句：
+DELETE FROM 510_newbase WHERE `id` in ()
+客户IP:127.0.0.1
+时间 :2010-04-12 15:07:08
+
+错误sql语句：
+SELECT where `id`= FROM 510_newbase  
+客户IP:127.0.0.1
+时间 :2010-04-12 15:38:19
+
+错误sql语句：
+SELECT where `id`= FROM 510_newbase 
+客户IP:127.0.0.1
+时间 :2010-04-12 15:38:31
+
+错误sql语句：
+SELECT where `id`= FROM 510_newbase 
+客户IP:127.0.0.1
+时间 :2010-04-12 15:39:04
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:39:16
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:40:08
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:40:41
+
+错误sql语句：
+SELECT * FROM 510_newscontent where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 15:50:04
+
+错误sql语句：
+SELECT * FROM 510_newscontent where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 15:50:12
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:57:39
+
+错误sql语句：
+SELECT * FROM 510_newscontent where `nid`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:57:39
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:58:28
+
+错误sql语句：
+SELECT * FROM 510_newscontent where `nid`=
+客户IP:127.0.0.1
+时间 :2010-04-12 15:58:28
+
+错误sql语句：
+SELECT * FROM 510_newbase where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 16:01:44
+
+错误sql语句：
+SELECT * FROM 510_newscontent where `nid`=
+客户IP:127.0.0.1
+时间 :2010-04-12 16:01:44
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`=18,`title`=我的爱情,`author`=林大祯 where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:27:17
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:27:17
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`=16,`title`=我的爱情1,`author`=林大祯 where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:28:18
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:28:18
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`='18',`title`='我的爱情',`author`='林大祯' where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 16:35:02
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:35:02
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`=18,`title`=我的爱情1,`author`=林大祯 where `id`=
+客户IP:127.0.0.1
+时间 :2010-04-12 16:41:10
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:41:10
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`=18,`title`=我的爱情1,`author`=林大祯 where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:41:40
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:41:40
+
+错误sql语句：
+UPDATE `510_newbase` SET `cid`=18,`title`=我的爱情1,`author`=林大祯 where `id`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:42:11
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:42:11
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:44:44
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:45:05
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:46:16
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:46:46
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:48:17
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:49:54
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:50:19
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:50:37
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:52:28
+
+错误sql语句：
+UPDATE `510_newscontent ` SET `content`=<p>真的想看一下2 +64+6可不可以。</p> where `nid`=18
+客户IP:127.0.0.1
+时间 :2010-04-12 16:52:38
+

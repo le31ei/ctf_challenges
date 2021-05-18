@@ -1,0 +1,6 @@
+name: 签到题
+category: web
+description: 签到题
+hardlevel: 1
+flag: flag{0efa99484bf5edd7c198e83acb49ebd2}
+is_docker: true

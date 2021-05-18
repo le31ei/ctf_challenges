@@ -1,0 +1,6 @@
+name: 超级ping工具
+category: web
+description: 超级ping
+hardlevel: 5
+flag: flag{random_php_flag_there}
+is_docker: true
