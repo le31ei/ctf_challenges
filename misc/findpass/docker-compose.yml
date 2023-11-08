@@ -3,6 +3,6 @@ services:
   web:
     image: php:5.6-apache
     ports:
-      - 9999:80
+      - 80
     volumes:
       - ./www/:/var/www/html/

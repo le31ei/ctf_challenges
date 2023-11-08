@@ -6,6 +6,6 @@ services:
       - ./www:/var/www/html/
       - ./flag:/flag
     ports:
-      - 9999:80
+      - 80
 
 

@@ -5,7 +5,7 @@ services:
     volumes:
       - ./www:/var/www/html/
     ports:
-      - 9999:80
+      - 80
     command: ['chmod', '777', '/var/www/html/upload']
 
 

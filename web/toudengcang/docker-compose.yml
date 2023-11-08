@@ -5,6 +5,6 @@ services:
     volumes:
       - ./index.php:/var/www/html/index.php
     ports:
-      - 9999:80
+      - 80
 
 

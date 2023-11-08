@@ -5,4 +5,4 @@ services:
     volumes:
       - ./www:/var/www/html/
     ports:
-      - 9999:80
+      - 80
