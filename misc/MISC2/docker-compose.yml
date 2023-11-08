@@ -3,7 +3,7 @@ services:
   web:
     image: php:5.4-apache
     ports:
-      - 80
+      - 9999:80
     volumes:
       - ./www/:/var/www/html/
 

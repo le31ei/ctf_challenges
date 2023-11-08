@@ -5,6 +5,6 @@ services:
     volumes:
       - ./www:/var/www/html/
     ports:
-      - 80
+      - 9999:80
     restart: always
 

@@ -6,7 +6,7 @@ services:
    volumes:
     - ./source:/var/www/html
    ports:
-    - 80
+    - 9999:80
    environment: 
     OPENSSL_CONF: $WORKSPACE/openssl.cnf
    restart: always
