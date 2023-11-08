@@ -2,7 +2,9 @@
 
 **这些题目均是在前安服工作时候积累的培训题目，做成了docker环境，可以直接使用`docker-compose up -d`启动题目，部分题目可能未完善，存在bug。目前的工作不再做一线安服了，就把题目开源，给还战斗在一线的安服兄弟们一个参考。如果有侵权，联系我删除。**
 
-
+**其它说明:**
+**如使用H1VE(https://github.com/D0g3-Lab/H1ve) ctfd-owl插件导入该题目可能会遇到导入后,题目给出的端口和实际frp不一致的问题,使用这两个命令替换文档中的'docker-compose.yml'格式,以解决该问题**
+`find ctf_challenges -name 'docker-compose.yml' -exec sed -i -e 's/- 80/- 9999:80/g' -e 's/- "80"/- 9999:80/g' {} \;`
 
 题目名称| 分类 | 难度 | 维护人
 -|-|-|-|
